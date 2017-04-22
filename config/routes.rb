@@ -18,5 +18,5 @@ Rails.application.routes.draw do
   resources :charges
 
 
-  root 'page#index'
+  get '/',to: 'page#index'
 end
