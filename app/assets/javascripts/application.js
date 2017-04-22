@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery
+//= require countdown
 //= require pagescroll
 //= require handlebars
 //= require underscore
