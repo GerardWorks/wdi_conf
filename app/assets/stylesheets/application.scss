@@ -14,3 +14,15 @@
  *= require font-awesome
  *= require_self
  */
+ @import 'normalize';
+ @import 'bulma';
+ @import 'map';
+ @import 'config';
+ @import 'scrollbutton';
+ @import 'font-awesome';
+ @import 'animate';
+ @import 'header';
+ @import 'profiles';
+ @import 'speakers';
+ @import 'about';
+ @import 'payments'
