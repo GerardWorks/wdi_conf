@@ -6,7 +6,7 @@
     background: asset-url("images/profile1.jpg") center left no-repeat;
     background-size: contain;
     z-index: 1;
-
+  }
     &:before {
     content: '';
     position: absolute;
@@ -14,10 +14,12 @@
     right: 0;
     bottom: 0;
     left: 0;
-
+  }
+}
 .columns.speaker-container {
   margin-bottom: 0;
 }
+
 
 
 .speaker-list{
