@@ -11,9 +11,9 @@
 // about supported directives.
 //
 //= require jquery
-//= require countdown
 //= require jquery.turbolinks
 //= require jquery_ujs
+//= require countdown
 //= require pagescroll
 //= require handlebars
 //= require underscore
