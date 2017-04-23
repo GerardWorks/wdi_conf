@@ -4,7 +4,9 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
-
+#prawn is for pdf generation
+gem 'prawn'
+gem 'prawn-table'
 gem 'rails_12factor', group: :production
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 #stripe for rails
@@ -29,6 +31,7 @@ gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'

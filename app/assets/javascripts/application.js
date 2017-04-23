@@ -12,9 +12,10 @@
 //
 //= require jquery
 //= require countdown
+//= require jquery.turbolinks
+//= require jquery_ujs
 //= require pagescroll
 //= require handlebars
 //= require underscore
-//= require jquery_ujs
 //= require turbolinks
 //= require_tree .

@@ -1,16 +1,12 @@
 <!-- BRING IN HEADER SECTION -->
-User ID: <%= session[:user_id] %>
-<%= form_tag '/session', method: 'delete' do %>
-	<button>Logout</button>
-<% end %>
-
-<div class="row">
-	<div class="large-3 medium-4 columns">
-		<div class="sidebar">
-			<h2>Sidebar menu</h2>
+<section class="section">
+	<div class="columns">
+		<div class="column">
+			<h2 class="title">Welcome <%=@user_id.first_name%></h2>
+			<% get_tickets do | ticket | %>
+			<%= "#{ticket.ticket_number} purchased on #{ticket.created_at}" %>
+			<% end %>
+			<a href="/gettickets" target="_blank">Download Your Ticket(s)</a>
 		</div>
 	</div>
-	<div class="large-9 medium-8 columns">
-		<h1>DASHBOARD PAGE</h1>
-	</div>
-</div>
+</section>
