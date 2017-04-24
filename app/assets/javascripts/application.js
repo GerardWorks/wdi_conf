@@ -13,8 +13,6 @@
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
-//= require pagescroll
-//= require handlebars
 //= require underscore
 //= require turbolinks
 //= require_tree .
