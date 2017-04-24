@@ -1,4 +1,4 @@
-function ready() {
+function pageScroll() {
   var isAnimating = false;
 
   $('.map-container')
@@ -27,4 +27,6 @@ function ready() {
   });
 };
 
-$(document).on('turbolinks:load', ready);
+$(document).on('turbolinks:load', function() {
+  pageScroll();
+});

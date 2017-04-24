@@ -30,4 +30,6 @@ function countDown(){
 
 };
 
-$(document).on('turbolinks:load', countDown);
+$(document).on('turbolinks:load', function() {
+   countDown();
+});
