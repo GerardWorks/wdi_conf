@@ -30,4 +30,4 @@ function ready(){
 
 };
 
-$(document).ready('turbolinks:load', ready);
+$(document).on('turbolinks:load', ready);
